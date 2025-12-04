@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
-
+    outline: none;
+    text-decoration: none
 }
 body{
     background-color: rgb(245, 243, 243);
@@ -12,7 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    box-shadow: 0 0 10px darkgrey;
+    box-shadow: 0 0 20px darkgrey;
     align-items: center;
 }
 
@@ -35,4 +36,19 @@ li a{
     color: black;
     display: flex;
     align-items: center;
+}
+
+button{
+    background-color: rgb(203, 195, 195);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+button i{
+    color: white;
+
+}
+
+aside{
+    
 }
