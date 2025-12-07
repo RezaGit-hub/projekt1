@@ -19,9 +19,17 @@ header{
     box-shadow: 0 0 20px darkgrey;
     align-items: center;
 }
+.logo{
+    font-style: oblique;
+    font-size: xx-large;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
 
 h1{
-    font-size: larger;
+    font-size:x-large;
+    font-weight: bold;
+    padding: 10px;
 }
 
 ul{
@@ -62,6 +70,19 @@ button i:hover{
     color: blue;
 }
 
+hover{
+    font-size: 1.1rem;
+}
+
+.main-header{
+    border: 10px;
+    background-color: rgb(231, 228, 228);
+    border-style: outset;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
 .content {
     display: flex;  /* nicht flexbox! */
     gap: 5px;
@@ -100,11 +121,32 @@ footer{
 
 h2{
     font-size: medium;
+    padding: 10px;
 }
 
 .inhalt{
     display: block;
-    padding: 10px 10px 10px 10px;
-    
-    
+    padding: 10px 10px 10px 10px;  
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    color: darkblue;
+    background-color: rgb(230, 229, 229);
+}
+
+table, th, tr{
+    border: 2px solid rgb(95, 94, 94);
+    border-collapse:collapse;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.ersteZeile, .ersteSpalte{
+    background-color: darkgray;
+    color: black;
 }
