@@ -1,0 +1,1 @@
+cd "/c/Users/rezam/OneDrive/Desktop/Javascript/projekt1"

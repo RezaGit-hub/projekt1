@@ -7,6 +7,9 @@
 }
 body{
     background-color: rgb(245, 243, 243);
+    display: flexbox;
+    gap: 20px;
+    
 }
 
 header{
@@ -17,8 +20,8 @@ header{
     align-items: center;
 }
 
-.main-menu{
-
+h1{
+    font-size: larger;
 }
 
 ul{
@@ -38,6 +41,11 @@ li a{
     align-items: center;
 }
 
+li a:hover{
+    background-color: lightgray;
+    color: blue;
+}
+
 button{
     background-color: rgb(203, 195, 195);
     padding: 5px 10px;
@@ -46,9 +54,57 @@ button{
 
 button i{
     color: white;
+    transition: 5ms;
+}
 
+button i:hover{
+    background-color: lightgray;
+    color: blue;
+}
+
+.content {
+    display: flex;  /* nicht flexbox! */
+    gap: 5px;
+    padding: 10px;
 }
 
 aside{
+    width: 130px;
+    padding: 10px;
+    border-style: double;
+}
+
+h2 a{
+    font-size: medium;
+    color: black;
+}
+
+h2 a:hover{
+    background-color: lightgrey;
+    color: blue;
+}
+
+main{
+    flex: 1;
+    padding: 20px;
+    border-style: double;
+}
+
+footer{
+    display: flex;
+    border-style: double;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+h2{
+    font-size: medium;
+}
+
+.inhalt{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    
     
 }
