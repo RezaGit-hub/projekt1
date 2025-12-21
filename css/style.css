@@ -49,9 +49,11 @@ li a{
     align-items: center;
 }
 
-li a:hover{
+li  a:hover{
     background-color: lightgray;
     color: blue;
+    border-radius: 10px;
+    
 }
 
 button{
@@ -60,19 +62,17 @@ button{
     border-radius: 20px;
 }
 
+button:hover{
+    background-color: rgb(217, 224, 231);
+}
+
 button i{
-    color: white;
+    color: rgb(85, 18, 241);
     transition: 5ms;
 }
 
-button i:hover{
-    background-color: lightgray;
-    color: blue;
-}
 
-hover{
-    font-size: 1.1rem;
-}
+
 
 .main-header{
     border: 10px;
