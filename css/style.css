@@ -71,7 +71,17 @@ button i{
     transition: 5ms;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
 
+input{
+    width: 220px;
+    height: 4vh;
+}
 
 
 .main-header{
@@ -117,6 +127,9 @@ footer{
     justify-content: center;
     margin: 20px;
     padding: 10px;
+    flex-direction: column;
+    
+    align-items: center;
 }
 
 h2{
@@ -150,3 +163,4 @@ table, th, tr{
     background-color: darkgray;
     color: black;
 }
+
